@@ -1,5 +1,10 @@
 # opencode-agentspawn
 
+<p align="center">
+  <img src="assets/social-preview.png" alt="opencode-agentspawn" width="900" />
+</p>
+
+
 A public **template repo + playbook** for spawning reliable agent workspaces.
 
 Designed for **OpenCode** first, but reusable anywhere: the durable value is the workspace structure, memory hygiene, and safety rules.
