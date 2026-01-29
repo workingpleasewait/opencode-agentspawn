@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+  "agents": {
+    "prometheus": {
+      "model": "amazon-bedrock/anthropic.claude-haiku-4-5-20251001-v1:0"
+    },
+    "atlas": {
+      "model": "amazon-bedrock/anthropic.claude-opus-4-5-20251101-v1:0"
+    },
+    "sisyphus": {
+      "model": "amazon-bedrock/anthropic.claude-sonnet-4-5-20250929-v1:0"
+    }
+  }
+}

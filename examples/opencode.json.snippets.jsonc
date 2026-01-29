@@ -1,0 +1,19 @@
+// Examples for ~/.config/opencode/opencode.json
+// These are snippets, not a full config file.
+
+{
+  "agent": {
+    // Recommended: mentionable specialist as a subagent
+    "<your_agent_name>": {
+      "mode": "subagent",
+      "model": "<provider>/<model-id>",
+      "prompt": "{file:./prompts/<your_agent_name>.txt}",
+      "permission": { "question": "allow" }
+    },
+
+    // Optional: hide generated helper entries (if they appear)
+    "<your_agent_name>/IDENTITY": { "mode": "subagent", "hidden": true, "disable": true },
+    "<your_agent_name>/TOOLS":    { "mode": "subagent", "hidden": true, "disable": true },
+    "<your_agent_name>/USER":     { "mode": "subagent", "hidden": true, "disable": true }
+  }
+}
