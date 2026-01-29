@@ -1,7 +1,7 @@
 # opencode-agentspawn
 
 <p align="center">
-  <img src="assets/social-preview.png" alt="opencode-agentspawn" width="900" />
+  <img src="assets/social-preview.png" alt="opencode-agentspawn" width="600" />
 </p>
 
 
