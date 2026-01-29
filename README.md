@@ -7,6 +7,8 @@ Designed for **OpenCode** first, but reusable anywhere: the durable value is the
 **Important:** this is **not** an OpenCode plugin. It won’t automatically add new agents to your OpenCode UI by itself.
 Instead, it gives you a workspace template + config snippets so you can wire your own agents in a clean, repeatable way.
 
+**Companion:** pairs well with `qforge-dev/opencode-architect` (an OpenCode plugin for building agents/plugins/commands + doc sync). See `docs/architect-companion.md`.
+
 ## What this gives you
 - A copyable workspace skeleton under `template/`
 - Practical rules so agents:
@@ -52,7 +54,8 @@ If you use the `oh-my-opencode` plugin, great — this template still works.
 See `examples/oh-my-opencode.json.example`.
 
 ## Related projects
-- `qforge-dev/opencode-architect` — an OpenCode plugin that adds agent-building helpers and doc sync tooling. Useful companion if you’re actively developing OpenCode agents/plugins: https://github.com/qforge-dev/opencode-architect
+- `qforge-dev/opencode-architect` — an OpenCode plugin that adds agent-building helpers and doc sync tooling: https://github.com/qforge-dev/opencode-architect
+- Companion doc (how to combine both): `docs/architect-companion.md`
 
 ## Contributing
 Advanced contributors welcome. See `CONTRIBUTING.md`.
