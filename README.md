@@ -4,6 +4,9 @@ A public **template repo + playbook** for spawning reliable agent workspaces.
 
 Designed for **OpenCode** first, but reusable anywhere: the durable value is the workspace structure, memory hygiene, and safety rules.
 
+**Important:** this is **not** an OpenCode plugin. It won’t automatically add new agents to your OpenCode UI by itself.
+Instead, it gives you a workspace template + config snippets so you can wire your own agents in a clean, repeatable way.
+
 ## What this gives you
 - A copyable workspace skeleton under `template/`
 - Practical rules so agents:
@@ -47,6 +50,9 @@ See `docs/security-credentials-and-red-flags.md`.
 ## Optional: oh-my-opencode
 If you use the `oh-my-opencode` plugin, great — this template still works.
 See `examples/oh-my-opencode.json.example`.
+
+## Related projects
+- `qforge-dev/opencode-architect` — an OpenCode plugin that adds agent-building helpers and doc sync tooling. Useful companion if you’re actively developing OpenCode agents/plugins: https://github.com/qforge-dev/opencode-architect
 
 ## Contributing
 Advanced contributors welcome. See `CONTRIBUTING.md`.
